@@ -7,6 +7,7 @@
 !/registration/
 !/reproduction/
 !/tools/
+!/docs/
 
 # Inside the code folders: no caches, results, logs or archived scripts
 __pycache__/
