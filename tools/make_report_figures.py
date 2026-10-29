@@ -131,7 +131,7 @@ def fig_age_confound():
     ax.set_xlabel("balanced accuracy (%), same 9 folds (50 = chance)")
     ax.grid(axis="x", color=GRID, lw=0.8); ax.set_axisbelow(True)
     ax.spines["left"].set_visible(False); ax.tick_params(axis="y", length=0)
-    ax.set_title("The label is almost fully predicted by age (orange = shortcut features)",
+    ax.set_title("The label is almost fully predicted by age (orange = no motion used)",
                  fontsize=10, color=INK, loc="left")
     save(fig, "fig_age_confound.png")
 

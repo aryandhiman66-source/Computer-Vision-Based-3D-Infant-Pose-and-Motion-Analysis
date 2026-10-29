@@ -24,3 +24,4 @@ __pycache__/
 /tools/build_final_report_v2.py
 /tools/md_to_docx.py
 /tools/make_presentation.py
+/tools/build_poster.py
