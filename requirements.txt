@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+opencv-python
+scikit-learn
+torch            # install the CUDA build from pytorch.org for GPU training
+chumpy           # needed only by the original SMIL model code

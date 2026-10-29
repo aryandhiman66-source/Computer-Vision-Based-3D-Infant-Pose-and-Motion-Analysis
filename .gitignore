@@ -1,0 +1,25 @@
+# Allowlist: only the main code is published. Everything else stays local.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/classification/
+!/registration/
+!/reproduction/
+!/tools/
+
+# Inside the code folders: no caches, results, logs or archived scripts
+__pycache__/
+*.pyc
+/classification/_archive/
+/classification/runs/
+/classification/*.log
+/reproduction/output/
+/tools/_archive/
+
+# Report and presentation builders (contain report text); kept local
+/tools/build_report_scaffold.py
+/tools/build_final_report.py
+/tools/build_final_report_v2.py
+/tools/md_to_docx.py
+/tools/make_presentation.py
