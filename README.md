@@ -216,8 +216,6 @@ One experiment (9 folds × 8 networks) takes about 1.5 hours on an RTX 3050 lapt
 3. Kulvicius, T. et al. (2025). *Deep learning empowered sensor fusion boosts infant movement classification.* Communications Medicine 5, 16.
 4. Lakshminarayanan, B. et al. (2017). *Simple and scalable predictive uncertainty estimation using deep ensembles.* NeurIPS 2017.
 
-## Acknowledgements
 
-Thanks to my supervisor, Dr. Massoud Khodadadzadeh, and to the authors of SMIL, MINI-RGBD and Kulvicius et al. (2025) for making their models, data and code available. Parts of the code and documentation were developed with the help of an AI assistant (Claude, Anthropic).
 
 > This is a research prototype on healthy infants. It is not a medical device and is not clinically validated.
